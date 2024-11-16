@@ -1,0 +1,32 @@
+const playbook = {
+    name: "",
+    type: "Bloodline/Origin/Post",
+    blurb: "",
+    edgesQS: [],
+    skillsQS: [],
+    languagesQS: [],
+    resourcesQS: {
+        salvage: [],
+        specimens: [],
+        whispers: [],
+        charts: [],
+    },
+    drivesQS: [],
+    miresQS: [],
+    aspects: {}
+}
+
+//aspect
+#: {
+    name: "",
+    type: "Trait/Gear/Companion",
+    length: ,
+    description: "",
+}
+
+bloodines: 4/3
+origins: 3/3
+posts: 3/4/3/4/3
+
+18 skills
+10 languages
