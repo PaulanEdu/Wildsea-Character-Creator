@@ -7,3 +7,22 @@
 header {
   font-size: 3em;
 }
+
+/* Playbook choice button areas */
+.btn-spread {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.playbook-choice-btn {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.selected-playbook {
+  background-color: red;
+}
