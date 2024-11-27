@@ -62,7 +62,7 @@ const playbookChoiceBtns = document.getElementsByClassName(
         item.classList.contains(clickedBtn.classList[0]) &&
         item.id !== clickedBtn.id
       ) {
-        item.classList.toggle("selected-playbook");
+        item.classList.remove("selected-playbook");
       }
     });
 
